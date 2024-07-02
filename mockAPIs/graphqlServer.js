@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const PORT = 3002;
 
-
+// Mock GraphQL API endpoint
 app.get("/graphql", (req, res) => {
   const responseTime = Math.floor(Math.random() * 300) + 100; // Random response time between 100ms to 400ms
   setTimeout(() => {
