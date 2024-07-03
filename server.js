@@ -36,8 +36,6 @@
 //   console.log(`Load balancer listening on port ${PORT}`);
 // });
 
-
-
 const express = require("express");
 const { v4: uuidv4 } = require("uuid");
 const axios = require("axios");
